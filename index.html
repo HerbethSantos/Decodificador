@@ -4,29 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Encriptador</title>
 </head>
 <body>
     <header>
         <img src="./imagens/logoAlura.png" alt="Logo da Alura">
     </header>
+    
+    <main>
+        <section>
+            <textarea class="text-area" cols="41" rows="4" placeholder="Digite o seu texto"></textarea>
+            
+            <div class="informacao">
+                <h6>Apenas letras minúsculas e sem acentos</h6>
+            </div>
+    
+            <div class="botoes">
+                <button class="btn=encriptar">Criptografar</button>
+                <button class="btn=desencriptar">Descriptografar</button>
+            </div>
+        </section>
+    
+        <section>
+            <textarea class="mensagem" cols="20" rows="10"></textarea>
+            <button class="btn-copiar">Copiar</button>
+        </section>
+    </main>
 
-    <section>
-        <textarea class="text-area" cols="41" rows="4" placeholder="Digite o seu texto"></textarea>
+    <footer>
+       <p>Desenvolvido por Herbeth Santos</p>
+    </footer>
 
-        <div class="informacao">
-            <h6>Apenas letras minúsculas e sem acentos</h6>
-        </div>
-
-        <div class="botoes">
-            <button class="btn=encriptar">Criptografar</button>
-            <button class="btn=desencriptar">Descriptografar</button>
-        </div>
-    </section>
-
-    <section>
-        <textarea class="mensagem" cols="20" rows="10"></textarea>
-        <button class="btn-copiar">Copiar</button>
-    </section>
 </body>
 </html>
