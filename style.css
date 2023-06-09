@@ -24,3 +24,9 @@ main {
     margin-top: 90px;
     text-transform: lowercase;
 }
+
+::placeholder {color: #0A3871;}
+    .text-are:focus {
+        outline: none;
+    }
+    
