@@ -6,7 +6,7 @@
     line-height: 150%;
 }
 
-.logaAlura {
+.logoAlura {
     margin-left: 10px;
     padding-top: 10px;
     width: 2%;
@@ -15,10 +15,10 @@
 main {
     display: flex;
     margin-bottom: 50px;
-    margin-left: 80pp;
+    margin-left: 80px;
 }
 
-.text-are {
+.text-area {
     border: none;
     color: #0A3871;
     margin-top: 90px;
@@ -26,7 +26,7 @@ main {
 }
 
 ::placeholder {color: #0A3871;}
-    .text-are:focus {
+    .text-area:focus {
         outline: none;
     }
 
@@ -45,4 +45,48 @@ main {
 
 .mensagem:focus {
     outline: none;
+}
+
+.informacoes {
+    color: #405057;
+    font-size: 10px;
+}
+
+.botoes {
+    display: flex;
+    margin-top: 18px ;
+
+}
+
+.btn-encriptar {
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.btn-desencriptar {
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+.btn-copiar {
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 108px;
+    margin-top: 402px;
+    position: absolute;
+    width: 336px;
 }
